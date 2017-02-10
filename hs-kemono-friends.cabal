@@ -1,0 +1,23 @@
+name:                hs-kemono-friends
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/aiya000/hs-kemono-friends
+license:             MIT
+license-file:        LICENSE
+author:              aiya000
+maintainer:          aiya000.develop@gmail.com
+copyright:           aiya000
+category:            Simple
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable kemono
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , brainhack
+                     , safe-exceptions
+                     , text
